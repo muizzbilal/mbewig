@@ -61,7 +61,7 @@ mongoose.connect(keys.MongoURI, {
 const port = process.env.PORT || 3000;
 
 app.get('/', ensureGuest,(req, res) => {
-    res.render('home');
+    res.render('website');
 });
 
 app.get('/about', (req, res) => {
