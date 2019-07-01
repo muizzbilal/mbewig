@@ -11,10 +11,6 @@ const keys = require('./config/keys');
 // Load Models
 const User = require('./models/user');
 const Post = require('./models/post');
-// Link passports to the server
-require('./passport/google-passport');
-require('./passport/facebook-passport');
-require('./passport/instagram-passport');
 // Link helpers
 const {
   ensureAuthentication,
