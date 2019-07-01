@@ -1,7 +1,11 @@
 module.exports = {
-    MongoURI: process.env.MONGO_URI,
-    GoogleClientID: process.env.GOOGLE_CLIENT_ID,
-    GoogleClientSecret: process.env.GOOGLE_CLIENT_SECRET
+    MongoURI: process.env.MongoURI,
+    GoogleClientID: process.env.GoogleClientID,
+    GoogleClientSecret: process.env.GoogleClientSecret,
+    FacebookClientID:process.env.FacebookClientID,
+    FacebookClientSecret:process.env.FacebookClientSecret,
+    InstagramClientID:process.env.InstagramClientID,
+    InstagramClientSecret:process.env.InstagramClientSecret
 }
 
 
