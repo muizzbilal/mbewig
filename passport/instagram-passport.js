@@ -1,7 +1,7 @@
 const passport = require('passport');
 const InstagramStrategy = require('passport-instagram').Strategy;
 const User = require('../models/user');
-const keys = require('../config/keys');
+const keys = require('./keys-prod');
 
 passport.serializeUser(function(user, done) {
     done(null, user.id);

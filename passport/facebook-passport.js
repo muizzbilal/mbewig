@@ -1,5 +1,6 @@
 const passport = require('passport');
-const keys = require('../config/keys');
+const keys = require('./keys-prod');
+
 const User = require('../models/user');
 const FacebookStrategy = require('passport-facebook').Strategy;
 
